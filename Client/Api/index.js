@@ -1,17 +1,34 @@
-require("dotenv").config();
-const PORT = process.env.PORT || 3001;
-const app = require("./src/app")
-const connection = require("./database")
+const express = require("express");
+const DB = require("./src/config/db");
+const bodyParser = require("body-parser");
 
-app.listen(PORT, () => {
-  connection()
-  console.log("Server running on port", PORT);
+const app = express();
+const port = 3001;
+const productsRouter = require("./src/routes/products");
+
+//routes
+
+//for parsing application/json
+
+app.use(
+  bodyParser.json({
+    limit: "50mb",
+  })
+);
+
+//for parsing application/xwww-
+
+app.use(
+  bodyParser.urlencoded({
+    limit: "50mb",
+    extended: true,
+  })
+);
+
+app.use(productsRouter);
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
 });
 
-
-
-// const express = require('express');
-// const app = express(); // instancia do express
-// const PORT = process.env.PORT || 3001;
-
-// app.use(express.json());
+DB();
