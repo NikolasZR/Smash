@@ -1,0 +1,90 @@
+
+[{
+    "name" : "PHILLY SMASH",
+    "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8BKXT6CE27z-AA-l2uNLyoHtllUbflQrCjicno9mfzZdwvpQFN2aFPBqK33zgqfPVYdc",
+    "price" : "1500",
+    "region" : "Filadelfia",
+    "description" : "Nos enloquece presentarles esta bomba! 250 gramos de carne de ternera cortada en laminas 🥩 acompañados por una cebollita única 🧅 y un baño de cheddar, en fetas y en salsa 🧀 Todo eso adentro de un pan que está más bueno que la atajada del Dibu a los 123’ 🥇 ¿Para acompañarlo? Papas fritas, claro, doble guarnición, para que lo compartas con quien quieras (o no) 😜"
+},
+
+{
+    "name": "Smash Melt",
+    "image": "https://i.postimg.cc/fTRvBpdP/Smash-Melt.jpg",
+    "price": "2000",
+    "region" : "Miramar",
+    "description" : "Pan con molde de la mano de @boulangeriemiramar🍞☑️  Cebolla caramelizada 😋 🧅☑️    150 gramos de carne 🍔☑️   ¿No te alcanza? Pedila doble, que está en promo 😜   ¿Que estas esperando para probarla? 📣 "
+},
+
+{
+    "name" : "Smash Burger",
+    "image" : "https://i.postimg.cc/CMNNCSRD/smash-burger.jpg",
+    "price": "1250",
+    "region": "Miramar",
+    "description": "Pes ta ñas te.. ¡y ya está la burger que pediste en tus manos!  Doble carne✅  Doble cheddar✅ La felicidad en forma de hamburguesa 🤯🍔 SMASH"
+},
+
+{
+    "name": "all in doble",
+    "image": "https://i.postimg.cc/ryChh5PD/all-in-doble.jpg",
+    "price" : "2000",
+    "region" : "Miramar",
+    "description": "✔️doble medallón de carne de 150gr cada uno ✔️cheddar  ✔️bacon  ✔️pepinillos  ✔️cebolla caramelizada  ✔️huevo a la plancha  ✔️manteca perfumada de queso azul  ✔️lechuga  ✔️tomate  ✔️guarnición de papas...    ¿Te quedaste con ganas de ponerle algo más? Agregale el topping que quieras!"
+},
+
+{
+    "name": "Cono de Papas Smash",
+    "image": "https://i.postimg.cc/Z50VK2KN/cono-de-papas-smash.jpg",
+    "price" : "700",
+    "region": "Smash",
+    "description": "asá a buscar tu cono de papas Las más ricas las tenemos acá en Smash"
+},
+
+{
+    "name": "Clasica Cheese Smash ",
+    "image":"https://i.postimg.cc/HkK3JzVh/Clasica-Cheese.jpg",
+    "price":"1200",
+    "region":"Smash",
+    "description":"150gr de Carne ☑️ Doble queso Cheddar ☑️"
+},
+
+{
+    "name": "Old School",
+    "image": "https://i.postimg.cc/brzRXFBs/Old-School.jpg",
+    "price": "1600",
+    "region": "Smash",
+    "description": "Una de las preferidas! 150gr de Carne ✔️ Cheddar y Jamón ✔️ Y el toque fresco de la lechuga y el tomate...💣 Además, recordá que en Smash, todas las hamburguesas las podés modificar a tu gusto 😉"
+},
+
+{
+    "name":"Onion Smash",
+    "image":"https://i.postimg.cc/6qYfBLkz/Onion-Smash.jpg",
+    "price":"2200",
+    "region":"Smash",
+    "description":"150 grs. De Carne ✅ Cheddar y Bacon ✅ Y una cebolla caramelizada única 🤤"
+},
+
+{
+    "name": "Big Smash",
+    "image": "https://i.postimg.cc/QxffDhss/Big-Smash.jpg",
+    "price": "2000",
+    "region": "Smash",
+    "description": "150gr de Carne ☑️  Queso y Bacon ☑️  Cebolla Brunoise ☑️  Pepinillos ☑️ Y el toque mágico de nuestra salsa Big Smash 😉... Obviamente acompañada con las mejores papas fritas 🍟"
+},
+
+{
+    "name": "Doble Blue ",
+    "image":"https://i.postimg.cc/g0Zs3hhk/Doble-Blue.jpg",
+    "price": "2200",
+    "region": "Smash",
+    "description": "Doble medallón de carne de 150gr ☑️  Cebolla caramelizada ☑️  Rúcula ☑️  Queso azul ☑️  Una verdadera locura 💣 🎉"
+},
+
+{
+    "name" : "All In",
+    "image": "https://i.postimg.cc/TYdtBhzC/All-In.jpg",
+    "price": "1600",
+    "region": "Smash",
+    "description": "150gr. de carne✔️  Cheddar y Bacon ✔️  Lechuga, tomate y cebolla✔️  Pepinillos, Huevo a la plancha✔️   Y el toque final... Manteca perfumada de Queso Azul💣...De verdad no la probaste todavía? 📱❗"
+}
+
+]
