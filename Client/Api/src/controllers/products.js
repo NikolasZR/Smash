@@ -88,3 +88,47 @@ exports.getDataById = (req, res) => {
       });
     });
 }
+
+
+//getDataByPrice for filters by price from the database use model of products
+
+
+exports.getDataByPrice = (req, res) => {
+  model
+    .find({ price: { $gte: req.params.price } })
+    .then((result) => {
+      res.status(200).json({
+        message: "Products fetched successfully",
+        products: result,
+      });
+    })
+    .catch((err) => {
+      res.status(500).json({
+        message: "Error in database",
+        error: err,
+      });
+    });
+}
+
+
+//getDataByReview for filters by review from the database use model of products
+
+
+exports.getDataByReview = (req, res) => {
+  model
+    .find({ review: { $gte: req.params.review } })
+    .then((result) => {
+      res.status(200).json({
+        message: "Products fetched successfully",
+        products: result,
+      });
+    })
+    .catch((err) => {
+      res.status(500).json({
+        message: "Error in database",
+        error: err,
+      });
+    });
+}
+
+
